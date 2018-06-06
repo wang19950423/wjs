@@ -1,0 +1,91 @@
+#header > .topbar {
+  border-bottom: 1px solid #ccc;
+}
+#header > .topbar > .container > .row > div {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+}
+#header > .topbar > .container > .row > div > a {
+  color: #666;
+  text-decoration: none;
+}
+#header > .topbar > .container > .row > div > .mobile-link {
+  display: block;
+}
+#header > .topbar > .container > .row > div > .mobile-link > img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  top: 40px;
+  z-index: 999;
+}
+#header > .topbar > .container > .row > div > .mobile-link:hover > img {
+  display: block;
+}
+#header > .topbar > .container > .row > div:first-child {
+  border-left: none;
+}
+#header > .topbar > .container > .row > div > .btn-danger {
+  background-color: #f10215;
+  color: #fff;
+}
+#slide .pcImg {
+  height: 410px;
+  display: block;
+  background-position: center center;
+}
+#slide .mobileImg img {
+  width: 100%;
+  display: block;
+}
+#features {
+  padding: 30px 0;
+}
+#features .media {
+  margin-top: 10px;
+}
+#features .media > a {
+  color: #666;
+  text-decoration: none;
+}
+#features .media > a:hover {
+  color: red;
+}
+#booking {
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.tab-content .productBox {
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.tab-content .productBox:active {
+  background-color: #e92322;
+  color: #fff;
+}
+#partner {
+  padding: 40px 0;
+}
+#partner > .container > h3 {
+  text-align: center;
+}
+#partner > .container > ul > li {
+  width: calc(11.11111111%);
+  float: left;
+  list-style: none;
+}
+#partner > .container > ul > li > a {
+  color: #333;
+  text-decoration: none;
+}
+#partner > .container > ul > li > a:hover {
+  color: red;
+}
+#partner > .container > ul > li > a > i {
+  font-size: 50px;
+}

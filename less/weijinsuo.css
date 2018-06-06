@@ -1,0 +1,264 @@
+header > .topbar {
+  border-bottom: 1px solid #ccc;
+}
+header > .topbar > .container > .row > div {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+}
+header > .topbar > .container > .row > div > a {
+  text-decoration: none;
+  color: #666;
+}
+header > .topbar > .container > .row > div > a > img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+header > .topbar > .container > .row > div > a:hover > img {
+  display: block;
+}
+header > .topbar > .container > .row > div > a.deng {
+  color: white;
+}
+header > .topbar > .container > .row > div:first-child {
+  border-left: none;
+}
+header > .navbar-default {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 0;
+  z-index: 888;
+  top: 0;
+}
+header > .navbar-default .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+header > .navbar-default .navbar-brand > i {
+  font-size: 30px;
+}
+header > .navbar-default .navbar-brand > i.icon-icon {
+  color: #e92322;
+}
+header > .navbar-default .navbar-brand > i.icon-logo {
+  color: #333;
+}
+header > .navbar-default .navbar-nav > li > a {
+  display: block;
+  height: 80px;
+  line-height: 50px;
+}
+header > .navbar-default .navbar-nav > li > a:hover {
+  border-bottom: 2px solid #e92322;
+}
+header > .navbar-default .navbar-nav > li.active > a {
+  border-bottom: 2px solid #e92322;
+  background-color: #fff;
+}
+#features .row > div {
+  padding: 30px 0px 0px 0px;
+}
+#features .row > div > a {
+  color: #333;
+  text-decoration: none;
+}
+#features .row > div > a:hover {
+  color: #e92322;
+}
+#features .row > div > a > .media-left {
+  padding-top: 10px;
+}
+#booking {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 50px;
+  line-height: 50px;
+}
+#booking > .container > div > a {
+  text-decoration: none;
+  color: #e92322;
+}
+.products {
+  padding: 40px 0;
+  background-color: #f0f0f0;
+}
+.products .ul-wapper {
+  overflow: hidden;
+}
+.products .ul-wapper .nav-tabs {
+  width: 576px;
+}
+.products .ul-wapper .nav-tabs > li > a {
+  border: 0;
+  color: #333;
+  font-size: 16px;
+  background-color: transparent;
+}
+.products .ul-wapper .nav-tabs > li.active > a {
+  border-bottom: 3px solid #e92322;
+}
+.products .tab-content .productBox {
+  position: relative;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.products .tab-content .productBox.active {
+  background-color: #e92322;
+  color: #fff;
+}
+.products .tab-content .productBox.active > .product-left::before {
+  content: "\e915";
+  font-family: 'itcast';
+  position: absolute;
+  left: 0;
+  top: -6px;
+  font-size: 30px;
+}
+.products .tab-content .productBox > .product-left {
+  height: 160px;
+  margin-right: 120px;
+  padding: 10px;
+}
+.products .tab-content .productBox > .product-left > h4 {
+  text-align: center;
+}
+.products .tab-content .productBox > .product-left > .row > div {
+  margin-top: 10px;
+  text-align: left;
+}
+.products .tab-content .productBox > .product-left > .row > div > p {
+  margin-bottom: 0;
+}
+.products .tab-content .productBox > .product-left > .row > div:nth-child(2n) {
+  text-align: right;
+}
+.products .tab-content .productBox > .product-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 120px;
+  height: 160px;
+  border-left: 1px dashed #ccc;
+  padding-top: 40px;
+}
+.products .tab-content .productBox > .product-right > p {
+  text-align: center;
+  margin-bottom: 0;
+}
+.products .tab-content .productBox > .product-right > p > strong {
+  font-size: 30px;
+}
+.products .tab-content .productBox > .product-right::before,
+.products .tab-content .productBox > .product-right::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  position: absolute;
+  left: -8px;
+}
+.products .tab-content .productBox > .product-right::before {
+  top: -8px;
+  box-shadow: 1px 1px 1px #ccc;
+}
+.products .tab-content .productBox > .product-right::after {
+  bottom: -8px;
+  box-shadow: -1px -1px -1px #ccc;
+}
+.products .tab-content .productBox > .product-right > .tooltips {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  text-align: center;
+}
+.products .tab-content .productBox > .product-right > .tooltips > a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+}
+.products .tab-content .productBox > .product-right > .tooltips a:first-of-type {
+  color: #e92322;
+  border: 1px solid #e92322;
+}
+.products .tab-content .productBox > .product-right > .tooltips a:last-of-type {
+  color: #0f0;
+  border: 1px solid #0f0;
+  margin-left: 5px;
+}
+#news {
+  padding: 40px 0;
+}
+#news .container > .row > div h4 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px dashed  #ccc;
+}
+#news .container > .row > div h4::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+}
+#news .container > .row > div > .nav-tabs > li {
+  margin: 10px 0;
+}
+#news .container > .row > div > .nav-tabs > li > a {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #ccc;
+}
+#news .container > .row > div > .nav-tabs > li > a:hover {
+  background-color: #e92322;
+}
+#news .container > .row > div > .nav-tabs > li > a > i {
+  font-size: 30px;
+}
+#news .container > .row > div > .nav-tabs > li.active > a {
+  background-color: #e92322;
+}
+#news .container > .row > div > .tab-content ul {
+  list-style: none;
+}
+#news .container > .row > div > .tab-content ul li {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "楷体";
+}
+.partner > .container > h1 {
+  text-align: center;
+}
+.partner > .container ul {
+  list-style: none;
+}
+.partner > .container ul li {
+  float: left;
+  width: calc(100% 9);
+  margin: 0px 30px 30px 30px;
+}
+.partner > .container ul li > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 60px;
+}
+.partner > .container ul li > a:hover {
+  color: #e92322;
+}
